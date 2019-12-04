@@ -10,7 +10,7 @@ import java.util.Optional;
  * REST controller which provides only GET endpoints for {@link co.cambridgetechnology.auction.core.memory.entity.AuctionItem}.
  */
 @RestController
-@RequestMapping("/account")
+@RequestMapping("/auction")
 public class AuctionItemController {
     private final AuctionRepository auctionRepository;
 
