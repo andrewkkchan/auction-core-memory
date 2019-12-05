@@ -6,7 +6,6 @@ import co.cambridgetechnology.auction.core.memory.entity.TransactionEvent;
  * Type of {@link TransactionEvent} allowed for the Ledger to process
  */
 public enum Type {
-    CREATE_ACCOUNT("create-account"),
     BACK_UP("back-up"),
     OFFER("offer"),
     BID("bid"),

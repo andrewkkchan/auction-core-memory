@@ -38,4 +38,7 @@ public class BidRequest implements EventRequest {
     public void setBid(BigDecimal bid) {
         this.bid = bid;
     }
+
+    public BidRequest() {
+    }
 }

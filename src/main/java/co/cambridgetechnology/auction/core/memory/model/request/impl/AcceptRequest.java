@@ -11,4 +11,13 @@ public class AcceptRequest implements EventRequest {
     public void setItemKey(String itemKey) {
         this.itemKey = itemKey;
     }
+
+    public AcceptRequest(String itemKey) {
+        this.itemKey = itemKey;
+    }
+
+    public AcceptRequest() {
+    }
+
+
 }
