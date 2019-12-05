@@ -17,5 +17,24 @@ curl -X GET \
   http://localhost:3004/auction/ \
   -H 'Content-Type: application/json'
 ```
+List bids:
+```
+curl -X GET \
+  http://localhost:3004/bid/ \
+  -H 'Content-Type: application/json'
+```
 
+Find all bids by one bidder:
+```
+curl -X GET \
+  http://localhost:3004/bid/bidder/tom \
+  -H 'Content-Type: application/json'
+```
+
+Find all bids on one item in auction:
+```
+curl -X GET \
+  http://localhost:3004/bid/item/vase123 \
+  -H 'Content-Type: application/json'
+```
 
